@@ -25394,11 +25394,12 @@
                     to: "/"
                 }
             }, [n("img", {
+                staticClass: "c-footer-img",
                 attrs: {
-                    src: "assets/medias/images/logo-varagon-clear.svg"
+                    src: "assets/medias/images/logo-web-fotter.svg"
                 }
             })]), t._v(" "), n("div", {
-                staticClass: "u-relative u-marg-b-md"
+                staticClass: "u-relative u-marg-b-md-footer"
             }, [n("a", {
                 staticClass: "c-footer__link c-footer__scrolltop t-link t-text--xxs t-text-ls--md u-absolute u-relative@sm u-pos-bl u-color--gray u-uppercase",
                 attrs: {
@@ -25432,7 +25433,7 @@
             }), t._v(" "), n("div", {
                 staticClass: "u-relative u-align-left u-align-center@sm"
             }, [n("div", {
-                staticClass: "u-absolute u-relative@sm u-pos-tr"
+                staticClass: "u-absolute u-relative@sm up-pos-right"
             }, [n("router-link", {
                 staticClass: "t-link t-text--sm u-inline-block u-color--gray-dark u-relative@sm u-marg-b-xs@sm",
                 attrs: {
@@ -26605,7 +26606,7 @@
                             staticClass: "c-about__fact__big-number t-text--roman u-relative u-marg-l-lg u-color--brand-blue"
                         }, [n("span", {
                             staticClass: "c-about__fact--1__unity u-inline-block u-valign-top u-marg-r-xs"
-                        }, [t._v("+")]), n("span", {
+                        }, [t._v(" ")]), n("span", {
                             domProps: {
                                 innerHTML: t._s(t.content.second_section_number)
                             }
@@ -26623,104 +26624,7 @@
                     },
                     staticRenderFns: []
                 }
-            }), t._v(" "), n("router-link", {
-                staticClass: "t-link u-relative u-marg-t-lg u-inline-block u-pad-t-md u-color--brand-blue",
-                attrs: {
-                    to: t._getPageURLFromWP(t.content.fourth_section_learn_more_url)
-                }
-            }, [t._v("\n                    " + t._s(t.content.fourth_section_left_learn_more_label) + "\n                    "), n("span", {
-                staticClass: "c-line--x u-absolute u-pos-tl u-w1of2 u-bg--brand-darkest"
-            })])], 1), t._v(" "), n("div", {
-                staticClass: "c-about__fact--3__col-right u-w7of12 u-fit-w@sm u-pad-l-w1of12 u-pad-l-0@sm"
-            }, [n("app-scroll-object", {
-                attrs: {
-                    "is-parallax": !1,
-                    offset: 100,
-                    content: t.content
-                },
-                inlineTemplate: {
-                    render: function() {
-                        var t = this,
-                            e = t.$createElement,
-                            n = t._self._c || e;
-                        return n("div", {
-                            staticClass: "u-w3of4 u-fit-w@sm"
-                        }, [n("ul", {
-                            staticClass: "o-list u-fit"
-                        }, t._l(t.content.fourth_section_list, function(e, r) {
-                            return n("li", {
-                                staticClass: "c-about__section-2__list__item u-relative u-flex u-fit-w u-pad-y-md u-overflow-h t-text--sm"
-                            }, [n("div", {
-                                staticClass: "u-w2of10 t-text--roman u-color--brand-darkest"
-                            }, [t._v(t._s(r + 1 < 10 ? "0" + (r + 1) + "." : r + 1 + "."))]), t._v(" "), n("div", {
-                                staticClass: "u-w8of10 u-color--gray"
-                            }, [t._v(t._s(e.label))]), t._v(" "), n("div", {
-                                staticClass: "c-about__section-2__list__item__line u-absolute u-pos-bl u-fit-w u-bg--gray-light"
-                            })])
-                        }))])
-                    },
-                    staticRenderFns: []
-                }
-            })], 1)]), t._v(" "), n("div", {
-                staticClass: "c-about__fact c-about__fact--4 u-relative u-marg-x-auto u-flex u-flex-ai--center u-flex-fd--column@sm u-pad-y-xxl js-fact u-pad-y-xl@sm"
-            }, [n("app-scroll-object", {
-                attrs: {
-                    "is-parallax": !1,
-                    offset: 100,
-                    content: t.content
-                },
-                inlineTemplate: {
-                    render: function() {
-                        var t = this,
-                            e = t.$createElement,
-                            n = t._self._c || e;
-                        return n("div", {
-                            staticClass: "c-about__fact--3__col-left u-w5of12 u-fit-w@sm"
-                        }, [n("h6", {
-                            staticClass: "c-about__fact__offse-letter t-h2 t-text--roman u-color--brand-blue u-marg-b-xs u-marg-b-0@sm u-pad-r-w1of24 u-align-left",
-                            domProps: {
-                                innerHTML: t._s("<span class='c-about__fact__offse-letter__small-top'>$</span>" + t.content.fifth_section_left_number_splitted)
-                            }
-                        }), t._v(" "), n("p", {
-                            staticClass: "t-h5 t-text--roman t-text-lh--md u-w7of10 u-fit-w@sm u-align-left"
-                        }, [n("app-words", {
-                            attrs: {
-                                "is-active": t.isActive,
-                                delay: 0,
-                                content: t.content.fifth_section_left_text
-                            }
-                        })], 1)])
-                    },
-                    staticRenderFns: []
-                }
-            }), t._v(" "), n("app-scroll-object", {
-                attrs: {
-                    "is-parallax": !1,
-                    offset: 100,
-                    content: t.content
-                },
-                inlineTemplate: {
-                    render: function() {
-                        var t = this,
-                            e = t.$createElement,
-                            n = t._self._c || e;
-                        return n("div", {
-                            staticClass: "c-about__fact--3__col-right u-relative u-pad-l-w1of12 u-pad-l-0@sm u-w7of12 u-fit-w@sm"
-                        }, [n("p", {
-                            staticClass: "t-h5 t-text--roman t-text-lh--md u-w7of10 u-fit-w@sm u-align-left"
-                        }, [n("app-words", {
-                            attrs: {
-                                "is-active": t.isActive,
-                                delay: 0,
-                                content: t.content.fifth_section_right_text
-                            }
-                        })], 1), t._v(" "), n("span", {
-                            staticClass: "u-absolute u-pos-tl u-hide@sm u-fit-h c-line--y u-bg--gray u-opacity--30"
-                        })])
-                    },
-                    staticRenderFns: []
-                }
-            })], 1), t._v(" "), n("div", {
+            }),  t._v(" "), n("div", {
                 staticClass: "c-about__fact c-about__fact--5 u-relative u-marg-x-auto u-align-center u-pad-y-xxl u-vacuum js-fact u-pad-y-xl@sm"
             }, [n("div", {
                 staticClass: "u-relative u-pad-y-xxl"
@@ -26790,7 +26694,7 @@
                         return n("div", {
                             staticClass: "u-relative"
                         }, [n("h3", {
-                            staticClass: "t-h3 t-text--roman t-text-lh--md u-color--brand-dark u-marg-b-md u-w1of2 u-w2of3@lg u-fit-w@sm u-marg-x-auto"
+                            staticClass: "t-h3 t-text--roman t-text-lh--md u-color--brand-dark u-marg-b-md u-w1of2 u-w2of3@lg u-fit-w@sm u-marg-x-auto u-font-p"
                         }, [n("app-words", {
                             attrs: {
                                 "is-active": t.isActive,
@@ -26851,7 +26755,7 @@
                         return n("div", {
                             staticClass: "u-relative u-align-left u-marg-l-w2of8 u-marg-l-0@sm"
                         }, [n("h3", {
-                            staticClass: "t-h3 t-text--roman t-text-lh--md u-color--brand-dark u-marg-b-md"
+                            staticClass: "t-h3 t-text--roman t-text-lh--md u-color--brand-dark u-marg-b-md u-font-p"
                         }, [n("app-words", {
                             attrs: {
                                 "is-active": t.isActive,
@@ -26881,13 +26785,13 @@
                             e = t.$createElement,
                             n = t._self._c || e;
                         return n("div", {
-                            staticClass: "c-about__fact c-about__fact--7 u-relative u-marg-x-auto u-align-left u-pad-y-xxl u-vacuum js-fact u-pad-y-xl@sm"
+                            staticClass: "c-about__fact c-about__fact--7 u-relative u-marg-x-auto u-align-right u-pad-y-xxl u-vacuum js-fact u-pad-y-xl@sm"
                         }, [n("div", {
                             staticClass: "u-inline-block u-valign-middle u-w1of2 u-w8of8@sm u-pad-b-lg@sm"
                         }, [n("h6", {
                             staticClass: "c-about__fact__offse-letter t-h2 t-text--roman u-color--brand-blue u-marg-b-sm",
                             domProps: {
-                                innerHTML: t._s(t.content.eighth_section_left_years_splitted + "<span class='c-about__fact__offse-letter__small-top'>Years</span>")
+                                innerHTML: t._s(t.content.eighth_section_left_years_splitted + "<span class='c-about__fact__offse-letter__small-top'></span>")
                             }
                         }), t._v(" "), n("p", {
                             staticClass: "t-h5 t-text--roman t-text-lh--md u-w4of5 u-fit-w@sm"
@@ -26941,7 +26845,7 @@
         "../../components/app-sliced-text/index.vue": 388,
         "../../utilities/getAbsoluteBoundingRect.js": 401
     }],
-    377: [function(t, e, n) {
+    377:  [function(t, e, n) {
         ! function() {
             "use strict";
 
@@ -27326,13 +27230,13 @@
                 }
             })], 1)
         }, r.staticRenderFns = []
-    }, {
-        "../../components/app-footer/index.vue": 368,
-        "../../components/app-scroll-object/index.vue": 387,
-        "../../components/app-sliced-text/index.vue": 388,
-        "date-fns": 72
-    }],
-    379: [function(t, e, n) {
+}, {
+    "../../components/app-footer/index.vue": 368,
+    "../../components/app-scroll-object/index.vue": 387,
+    "../../components/app-sliced-text/index.vue": 388,
+    "date-fns": 72
+}],
+    379:  [function(t, e, n) {
         ! function() {
             "use strict";
 
@@ -27845,184 +27749,7 @@
                 }, [t._v("-")]), t._v(" "), n("div", {
                     staticClass: "u-w9of10"
                 }, [t._v(t._s(e.label))])])
-            }))])]), t._v(" "), n("div", {
-                staticClass: "u-marg-t-xxl u-flex u-flex-fd--column@sm u-fit-w"
-            }, [n("div", {
-                staticClass: "u-w1of2 u-fit-w@sm"
-            }, [n("div", {
-                staticClass: "u-relative u-w1of2 u-fit-w@sm u-pad-b-lg"
-            }, [n("app-scroll-object", {
-                attrs: {
-                    "is-parallax": !1,
-                    offset: 0,
-                    content: t.content
-                },
-                inlineTemplate: {
-                    render: function() {
-                        var t = this,
-                            e = t.$createElement,
-                            n = t._self._c || e;
-                        return n("h6", {
-                            staticClass: "t-h5 t-text--roman u-color--brand-darkest"
-                        }, [n("app-words", {
-                            attrs: {
-                                "is-active": t.isActive,
-                                delay: 0,
-                                content: t.content.fourth_section_second_block_title
-                            }
-                        })], 1)
-                    },
-                    staticRenderFns: []
-                }
-            }), t._v(" "), n("div", {
-                staticClass: "u-marg-t-md t-text--md t-text--base u-color--gray",
-                domProps: {
-                    innerHTML: t._s(t.content.fourth_section_second_block_description)
-                }
-            }), t._v(" "), n("span", {
-                staticClass: "c-line--x u-absolute u-pos-bl u-w1of2 u-bg--gray"
-            })], 1)]), t._v(" "), n("div", {
-                staticClass: "u-marg-t-xl@sm u-w1of2 u-fit-w@sm"
-            }, [n("h6", {
-                staticClass: "t-text--md t-text--base-bold u-color--brand-darkest",
-                domProps: {
-                    innerHTML: t._s(t.content.fourth_section_second_block_selected_areas_label)
-                }
-            }), t._v(" "), n("div", {
-                staticClass: "u-flex u-flex-fd--column@sm u-fit-w"
-            }, t._l(t.content.fourth_section_second_block_categories, function(e, r) {
-                return n("div", {
-                    key: r,
-                    staticClass: "c-borrowers__section-3__areas-list u-marg-t-md u-flex u-w1of2 u-fit-w@sm u-pad-r-md t-text--md"
-                }, [n("p", {
-                    staticClass: "u-marg-t-0 u-marg-b-0 u-color--gray",
-                    domProps: {
-                        innerHTML: t._s(e.label)
-                    }
-                }), t._v(" "), t._l(e.areas, function(e, r) {
-                    return n("div", {
-                        staticClass: "c-borrowers__section-3__healthcare-list__item u-flex u-fit-w u-pad-y-xs u-color--gray"
-                    }, [n("div", {
-                        staticClass: "u-w1of10"
-                    }, [t._v("-")]), t._v(" "), n("div", {
-                        staticClass: "u-w9of10"
-                    }, [t._v(t._s(e.label))])])
-                })], 2)
-            }))])])], 1)]), t._v(" "), n("section", {
-                staticClass: "u-relative u-bg--white u-pad-b-lg u-pad-t-xxl@sm js-header-panel",
-                attrs: {
-                    "data-color": "dark"
-                }
-            }, [n("div", {
-                staticClass: "u-relative u-pad-x-w1of12"
-            }, [n("div", {
-                staticClass: "u-relative u-bg--gray-lighter u-align-center u-pad-t-xxl"
-            }, [n("app-scroll-object", {
-                attrs: {
-                    "is-parallax": !1,
-                    offset: 0,
-                    content: t.content
-                },
-                inlineTemplate: {
-                    render: function() {
-                        var t = this,
-                            e = t.$createElement,
-                            n = t._self._c || e;
-                        return n("h3", {
-                            staticClass: "t-h3 t-text--roman u-color--brand-darkest u-marg-b-xl"
-                        }, [n("app-words", {
-                            attrs: {
-                                "is-active": t.isActive,
-                                delay: 0,
-                                content: t.content.partners_title
-                            }
-                        })], 1)
-                    },
-                    staticRenderFns: []
-                }
-            }), t._v(" "), n("app-partners-slideshow", {
-                attrs: {
-                    content: t.adminContent
-                }
-            })], 1)])]), t._v(" "), n("section", {
-                staticClass: "u-relative u-bg--brand-darkest js-header-panel",
-                attrs: {
-                    "data-color": "clear"
-                }
-            }, [n("div", {
-                staticClass: "c-borrowers__section-5__background u-flex u-flex-jc--center u-fit u-pad-y-ultra"
-            }, [n("div", {
-                staticClass: "c-borrowers__section-5__container u-marg-x-auto@sm u-relative u-w10of12@sm"
-            }, [n("div", {
-                staticClass: "u-flex u-flex-fd--column"
-            }, [n("div", {
-                staticClass: "u-flex"
-            }, [n("app-scroll-object", {
-                attrs: {
-                    "is-parallax": !1,
-                    offset: 0,
-                    content: t.content
-                },
-                inlineTemplate: {
-                    render: function() {
-                        var t = this,
-                            e = t.$createElement,
-                            n = t._self._c || e;
-                        return n("h3", {
-                            staticClass: "u-fit-w@sm u-pad-r-w1of12 u-pad-r-0@sm t-h4 t-text--roman t-text-lh--md u-color--white"
-                        }, [n("app-words", {
-                            attrs: {
-                                "is-active": t.isActive,
-                                delay: 0,
-                                content: t.content.footer_title
-                            }
-                        })], 1)
-                    },
-                    staticRenderFns: []
-                }
-            })], 1), t._v(" "), n("div", {
-                staticClass: "u-relative u-marg-t-lg u-flex u-flex-fd--column@sm"
-            }, [n("span", {
-                staticClass: "u-absolute u-pos-t-0 u-pos-x-center u-hide@sm u-fit-h c-line--y u-bg--white"
-            }), t._v(" "), n("div", {
-                staticClass: "u-flex u-flex-fd--column u-w1of2 u-fit-w@sm u-pad-r-w1of12 u-pad-r-0@sm"
-            }, [n("a", {
-                staticClass: "c-borrowers__section-5__link u-flex u-flex-ai--center",
-                attrs: {
-                    href: "mailto:" + t.content.footer_contact_us_mail,
-                    target: "_blank",
-                    rel: "noopener noreferrer nofollow"
-                }
-            }, [n("img", {
-                staticClass: "t-icon--mail u-marg-r-sm",
-                attrs: {
-                    src: "assets/medias/images/icons/mail.svg"
-                }
-            }), t._v(" "), n("span", {
-                staticClass: "t-text--base-bold u-color--white",
-                domProps: {
-                    innerHTML: t._s(t.content.footer_contact_us_label)
-                }
-            })])]), t._v(" "), n("div", {
-                staticClass: "u-marg-t-md@sm u-w1of2 u-fit-w@sm u-pad-l-w1of12 u-pad-l-0@sm"
-            }, [n("a", {
-                staticClass: "c-borrowers__section-5__link u-flex u-flex-ai--center",
-                attrs: {
-                    href: t.content.footer_fact_sheet_file.url,
-                    target: "_blank",
-                    rel: "noopener noreferrer nofollow"
-                }
-            }, [n("img", {
-                staticClass: "t-icon--arrow-down-circled u-marg-r-sm",
-                attrs: {
-                    src: "assets/medias/images/icons/arrow-down-circled.svg"
-                }
-            }), t._v(" "), n("span", {
-                staticClass: "t-text--base-bold u-color--white",
-                domProps: {
-                    innerHTML: t._s(t.content.footer_fact_sheet_label)
-                }
-            })])])])])])])]), t._v(" "), n("app-footer", {
+            }))])])], 1)]), t._v(" "), n("app-footer", {
                 attrs: {
                     "global-content": t.globalContent,
                     "admin-content": t.adminContent,
@@ -28288,52 +28015,9 @@
                         innerHTML: t._s(e.address)
                     }
                 })
-            })), t._v(" "), n("div", {
-                staticClass: "u-flex u-fit-w"
-            }, t._l(t.content.postal_addresses, function(e, r) {
-                return n("ul", {
-                    key: r,
-                    staticClass: "o-list u-w1of2"
-                }, [e.view_on_map ? n("li", [n("a", {
-                    staticClass: "c-contact__section__location__details__map-link u-color--gray",
-                    attrs: {
-                        href: "_getGoogleMapUrl(address.address)",
-                        target: "_blank",
-                        rel: "noopener nofollow noreferrer"
-                    }
-                }, [n("img", {
-                    staticClass: "t-icon--pin u-inline-block u-valign-middle u-marg-r-sm",
-                    attrs: {
-                        src: "assets/medias/images/icons/pin.svg"
-                    }
-                }), t._v(" "), n("span", {
-                    staticClass: "t-text--sm u-inline-block u-valign-middle",
-                    domProps: {
-                        innerHTML: t._s(t.content.label_view_on_map)
-                    }
-                })])]) : t._e(), t._v(" "), n("li", {
-                    staticClass: "u-marg-t-xs"
-                }, [n("a", {
-                    staticClass: "c-contact__section__location__details__map-link u-color--gray",
-                    attrs: {
-                        href: "#",
-                        target: "_blank",
-                        rel: "noopener nofollow noreferrer"
-                    }
-                }, [n("img", {
-                    staticClass: "t-icon--phone u-inline-block u-valign-middle u-marg-r-sm",
-                    attrs: {
-                        src: "assets/medias/images/icons/phone.svg"
-                    }
-                }), t._v(" "), n("span", {
-                    staticClass: "t-text--sm u-color--gray u-inline-block u-valign-middle",
-                    domProps: {
-                        innerHTML: t._s(e.phone_number)
-                    }
-                })])])])
             }))]), t._v(" "), n("div", {
                 staticClass: "c-contact__section__location__details u-hide u-block@sm u-w5of8 u-fit-w"
-            }, t._l(t.content.postal_addresses, function(e, r) {
+            }, t._l(لهفt.content.postal_addresses, function(e, r) {
                 return n("div", {
                     key: r,
                     staticClass: "u-flex u-flex-fd--column u-fit-w t-text--xl u-color--gray",
